@@ -16,9 +16,8 @@ def pioneer
 end
 
 def id_generator
-  number = rand(10)
   id_generator = {
-    id: number
+    id: rand(10)
   }
 end
 
